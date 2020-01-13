@@ -1,7 +1,5 @@
 package com.kachanov.camel.webcam;
 
-import static org.slf4j.LoggerFactory.getLogger;
-
 import java.awt.image.BufferedImage;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
@@ -16,7 +14,6 @@ import org.apache.camel.Exchange;
 import org.apache.camel.Message;
 import org.apache.camel.Processor;
 import org.apache.camel.spi.ExceptionHandler;
-
 
 import com.github.sarxos.webcam.Webcam;
 import com.github.sarxos.webcam.WebcamMotionEvent;
